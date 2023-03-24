@@ -10,7 +10,7 @@ data "aws_subnet_ids" "subnet_id" {
   vpc_id = var.vpc_id
 
   tags = {
-    Name = "pub*"
+    Name = "duyna-subnet-1*"
   }
 }
 
@@ -21,7 +21,7 @@ output "ids" {
 
 
 
-resource "aws_security_group" "EKS_SG" {
+resource "aws_security_group" "duyna11_EKS_SG" {
   name        = "${var.cluster_name}-sg"
   description = "${var.cluster_name}-sg"
   vpc_id      = var.vpc_id
