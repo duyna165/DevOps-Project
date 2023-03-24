@@ -15,5 +15,5 @@ variable "cluster_name" {
 
 
 variable "node_instance_type" {
-    default = "c5.xlarge"
+    default = "t2.micro"
 }
