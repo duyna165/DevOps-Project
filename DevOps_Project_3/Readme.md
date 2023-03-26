@@ -23,6 +23,8 @@ Secret: <paste_token>
 name: slacktoken
 description: slacktoken
 ![slack-notifications](https://user-images.githubusercontent.com/61420358/227756895-d2105d96-41a9-4305-aea3-758cc51596c1.png)
+
+
 We will add below part to our Jenkinsfile in the same level with stages and push our changes.
 post{
         always {
@@ -32,5 +34,7 @@ post{
                 message: "*${currentBuild.currentResult}:* Job ${env.JOB_NAME} build ${env.BUILD_NUMBER} \n More info at: ${env.BUILD_URL}"
         }
     }
-    ![slack-connection-successful](https://user-images.githubusercontent.com/61420358/227756925-8cb16da2-55f4-41d7-9441-2b43ac0403ed.png)
+   
+   
+   ![slack-connection-successful](https://user-images.githubusercontent.com/61420358/227756925-8cb16da2-55f4-41d7-9441-2b43ac0403ed.png)
 
