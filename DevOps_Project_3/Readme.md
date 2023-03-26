@@ -5,6 +5,8 @@ dùng Slack để thông báo
 
 
 Noted :
+
+
 Slack Notification
 We will Login to slack and create a workspace by following the prompts. Then we will create a channel jenkins-cicd in our workspace.
 
