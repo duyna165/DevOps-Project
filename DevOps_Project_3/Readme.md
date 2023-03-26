@@ -2,6 +2,8 @@
 
 - Dùng công cụ SCM ( GitHub ) --> Tạo EC2 cài đặt jenkins server , terraform , helm    -->  Dùng Jenkins Script ( file jenkins_scipt.sh) tạo EKS cluster từ file terraform và helm cài đặt ứng dụng ( bitnami, helm chart , nginx , load balancer) - Sử dụng S3 để lưu file tf.state ( file backend.tf) - 
 dùng Slack để thông báo 
+
+
 Noted :
 Slack Notification
 We will Login to slack and create a workspace by following the prompts. Then we will create a channel jenkins-cicd in our workspace.
